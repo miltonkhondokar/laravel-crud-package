@@ -1,0 +1,29 @@
+{
+    "name": "ayat/crud",
+    "description": "This specialized Laravel package streamlines the process of building comprehensive CRUD operations by providing functionalities such as effortless view file generation, controller setup, model creation, seamless validation file integration, automated migration file creation, and simplified route establishment.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ayat\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Milton Khondokar",
+            "email": "miltonkhondokar52@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ayat\\Crud\\CrudServiceProvider"
+            ]
+        }
+    }
+}
